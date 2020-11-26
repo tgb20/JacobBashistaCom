@@ -1,15 +1,25 @@
 {
-  "name": "jacobbashistacom",
+  "name": "JacobBashistaCom",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "build:css": "tailwind build src/styles.css -o public/styles.css"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tgb20/JacobBashistaCom.git"
+  },
+  "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tgb20/JacobBashistaCom/issues"
+  },
+  "homepage": "https://github.com/tgb20/JacobBashistaCom#readme",
   "dependencies": {
-    "express": "^4.17.1",
-    "path": "^0.12.7"
+    "autoprefixer": "^10.0.2",
+    "postcss": "^8.1.10",
+    "tailwindcss": "^2.0.1"
   }
 }
